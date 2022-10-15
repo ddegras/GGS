@@ -1,0 +1,10 @@
+Package: GGS
+Type: Package
+Title: Greedy Gaussian Segmentation
+Version: 1.0
+Date: 2020-10-17
+Author: David Degras
+Maintainer: David Degras <david.degras@umb.edu>
+Description: R Implementation of the Greedy Gaussian Segmentation of Hallac, Nystrup, and Boyd (2019) for multivariate time series
+License: GPL-2
+Imports: foreach
