@@ -59,16 +59,11 @@ A list with components
 Hallac, Nystrup, and Boyd (2019). Greedy Gaussian Segmentation of Multivariate Time Series. 
 }
 
-% \note{
-% %%  ~~further notes~~
-% }
-
-
-
 \seealso{
 \code{\link{calculateLikelihood}}, \code{\link{GGS}}, \code{\link{GGSMeanCov}} 
 
 }
+
 \examples{
 
 ## For calculations in parallel
@@ -83,12 +78,3 @@ cv <- GGSCrossVal(x, Kmax=50, lambdaList=c(.1,1,2,5,10,20,50), parallel=TRUE)
 	
 }
 
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory (show via RShowDoc("KEYWORDS")):
-% \keyword{ ~kwd1 }
-% \keyword{ ~kwd2 }
-% Use only one keyword per line.
-% For non-standard keywords, use \concept instead of \keyword:
-% \concept{ ~cpt1 }
-% \concept{ ~cpt2 }
-% Use only one concept per line.
