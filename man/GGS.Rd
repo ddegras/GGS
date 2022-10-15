@@ -1,15 +1,16 @@
 \name{GGS}
 \alias{GGS}
-%- Also NEED an '\alias' for EACH other topic documented here.
+
 \title{
 Greedy Gaussian Segmentation of Multivariate Time Series}
+
 \description{
 Fit piecewise Gaussian model to multivariate time series by the GGS approach of Hallac et al. (2019)
 }
 \usage{
 GGS(data, Kmax, lambda, features = NULL, verbose = FALSE)
 }
-%- maybe also 'usage' for other objects documented here.
+
 \arguments{
   \item{data}{
 data matrix: rows = time points, columns = variables
@@ -27,14 +28,14 @@ Logical: if \code{TRUE}, prints out segmentation results
 }
 }
 \details{
-%%  ~~ If necessary, more details than the description above ~~
 }
+
 \value{
-A list with components 
+A LIST with components 
 \item{breaks}{list of breakpoints by increasing order of \code{K}}
 \item{logLik}{associated log-likelihood values}
-%% ...
 }
+
 \references{
 Hallac, Nystrup, and Boyd (2019). Greedy Gaussian Segmentation of Multivariate Time Series. 
 }
